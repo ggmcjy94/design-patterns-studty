@@ -1,6 +1,6 @@
 package _02_factory._02_after;
 
-public class WhiteShipFactory implements ShipFactory{
+public class WhiteShipFactory extends DefaultShipFactory {
 
 
     @Override
