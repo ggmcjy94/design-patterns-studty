@@ -28,4 +28,11 @@
 자바 9 인터페이스의 private 메소드도 만들수 있게끔 추가 되었다 
 그래서 자바 8 부터는 추상 클래스를 사용하는것 보다 인터페이스를 더 활용한다.
 
+실무
+* 단순한 팩토리 패턴
+* 매개변수의 값에 따라 또는 메소드에 따라 각기 다른 인스턴스를 리턴하는 단순한 버저의 팩토리 패턴
+* java.lang.Calendar 또는 java.lang.NumberFormat 에서 사용
+* 스프링 BeanFactory
+* Object 티입의 Product를 만드는 BeanFactory라는 Creator
+
 
