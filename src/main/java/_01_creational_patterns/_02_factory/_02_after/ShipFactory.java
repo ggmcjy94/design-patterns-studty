@@ -1,6 +1,7 @@
 package _01_creational_patterns._02_factory._02_after;
 
 public interface ShipFactory {
+
     default Ship orderShip(String name, String email) {
         validate(name, email);
         prepareFor(name);

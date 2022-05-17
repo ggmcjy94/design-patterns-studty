@@ -18,6 +18,5 @@ public class Client {
 
     private void print(ShipFactory shipFactory, String name, String email) {
         System.out.println(shipFactory.orderShip(name, email));
-
     }
 }
