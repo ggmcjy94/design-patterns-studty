@@ -3,7 +3,7 @@ package _01_creational_patterns._05_prototype._04_myexam;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Employees implements Cloneable{
+public class Employees {
 
     private List<String> empList;
 

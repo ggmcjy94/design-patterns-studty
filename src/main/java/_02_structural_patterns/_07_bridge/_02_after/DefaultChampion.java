@@ -2,7 +2,7 @@ package _02_structural_patterns._07_bridge._02_after;
 
 import _02_structural_patterns._07_bridge._01_before.Champion;
 
-public class DefaultChampion implements Champion {
+public abstract class DefaultChampion implements Champion {
 
     private Skin skin;
     private String name;

@@ -10,8 +10,10 @@ public class Client {
 
         Employees empsNew1 = (Employees) emps.clone();
         Employees empsNew2 = (Employees) emps.clone();
+
         List<String> list = empsNew1.getEmpList();
         list.add("test6");
+
         List<String> list1 = empsNew2.getEmpList();
         list1.remove("test1");
 
