@@ -19,5 +19,10 @@ public class Private implements State{
 
     @Override
     public void addStudent(Student student) {
+        if (student.isAvailable(this.onlineCourse)) {
+            this.onlineCourse.getStudents().add(student);
+        } else {
+            throw new UnsupportedOperationException("프라이빗 코스를 수강 할 수 없습니다.");
+        }
     }
 }
